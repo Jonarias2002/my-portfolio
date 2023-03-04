@@ -15,10 +15,7 @@ const Hireme = () => {
             Do you want any work from me?
             </h2>
             <p className="lg:text-left text-justify max-w-lg text-sm mt-4 text-gray-200 leading-6">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis dicta
-            soluta quos tempore eos accusamus cupiditate, amet in similique
-            sapiente obcaecati odio deleniti architecto corporis ratione.
-            Consequatur a quidem maiores!
+            My main interest are projects that are focused on the user, I like to make the visual work at the beginning be striking and descriptive enough for the user and thus provide a better service.
             </p>
             <button className="btn-primary mt-10">Say Hello</button>
         </div>

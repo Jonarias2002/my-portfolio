@@ -13,7 +13,7 @@ const Skills = () => {
         count: 90,
         },
         {
-        logo: "logo-nodejs",
+        logo: "logo-javascript",
         level: "Advanced",
         count: 75,
         },
