@@ -14,32 +14,32 @@ const Project = () => {
   const projects = [
     {
       img: project1,
-      name: "Movie App",
+      name: "...",
       github_link: "https://github.com/Sridhar-C-25",
       live_link: "https://myreactflix.netlify.app",
     },
     {
-      img: project2,
-      name: "Job search Web App",
+      img: project1,
+      name: "...",
       github_link: "https://github.com/Sridhar-C-25/jobsearchapp",
       live_link: "https://myjobsearch.netlify.app",
     },
     {
-      img: project3,
-      name: "Highking",
+      img: project1,
+      name: "...",
       github_link: "https://github.com/Sridhar-C-25/highking",
       live_link: "https://highking01.netlify.app",
     },
     {
-      img: project4,
-      name: "React Nav",
+      img: project1,
+      name: "...",
       github_link:
         "https://github.com/Sridhar-C-25/reacttailwindnavbar-with-dropdown",
       live_link: "https://reacttailwindnavbar.netlify.app",
     },
     {
-      img: project5,
-      name: "Vue Country",
+      img: project1,
+      name: "...",
       github_link: "https://github.com/Sridhar-C-25",
       live_link: "https://vuecountry05.netlify.app",
     },
@@ -90,7 +90,7 @@ const Project = () => {
                       target="_blank"
                       className="text-cyan-600 bg-gray-800 px-2 py-1 inline-block"
                     >
-                      Live Demo
+                      Web
                     </a>
                   </div>
                 </div>

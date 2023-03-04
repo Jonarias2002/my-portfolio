@@ -1,15 +1,10 @@
 import React from "react";
 import about from "../assets/img/about.png";
 const Hero = () => {
-    const social_media = [
-    "logo-linkedin",
-    "logo-twitter",
-    "logo-github",
-    ];
     return (
     <section
         id="home"
-        className="min-h-screen flex py-10 md:flex-row flex-col items-center"
+        className="min-h-screen bg-gray-800 flex py-10 md:flex-row flex-col items-center"
     >
         <div className="flex-1 flex items-center justify-center h-full">
         <img src={about} alt="" className="md:w-11/12 h-full object-cover" />
@@ -24,19 +19,10 @@ const Hero = () => {
             My Name is <span>Jonathan Arias</span>
             </h1>
             <h4 className="md:text-2xl text-lg md:leading-normal leading-5 mt-4 font-bold text-gray-600">
-            Front-end Developer
+            Front-end Developer <br />
+            20 años / 15 mayo 2002 <br />
+            Venezuela, Estado Bolívar, Ciudad Guayana - 8050
             </h4>
-            <button className="btn-primary mt-8">Contact Me</button>
-            <div className="mt-8 text-3xl flex items-center md:justify-start justify-center gap-5">
-            {social_media?.map((icon) => (
-                <div
-                key={icon}
-                className="text-gray-600 hover:text-white cursor-pointer "
-                >
-                <ion-icon name={icon}></ion-icon>
-                </div>
-            ))}
-            </div>
         </div>
         </div>
     </section>
