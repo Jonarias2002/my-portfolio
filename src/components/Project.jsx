@@ -1,7 +1,7 @@
 import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import project1 from "../assets/img/project-1.png";
-import project2 from "../assets/img/project-2.jpg";
+import project2 from "../assets/img/project-2.png";
 import project3 from "../assets/img/project-3.jpg";
 import project4 from "../assets/img/project-4.jpg";
 import project5 from "../assets/img/project-5.png";
@@ -19,9 +19,9 @@ const Project = () => {
       live_link: "https://myreactflix.netlify.app",
     },
     {
-      img: project1,
-      name: "...",
-      github_link: "https://github.com/Sridhar-C-25/jobsearchapp",
+      img: project2,
+      name: "Rick and Morty",
+      github_link: " https://jonarias2002.github.io/rick-and-morty/",
       live_link: "https://myjobsearch.netlify.app",
     },
     {
@@ -83,14 +83,7 @@ const Project = () => {
                       target="_blank"
                       className="text-cyan-600 bg-gray-800 px-2 py-1 inline-block"
                     >
-                      Github
-                    </a>
-                    <a
-                      href={project_info.live_link}
-                      target="_blank"
-                      className="text-cyan-600 bg-gray-800 px-2 py-1 inline-block"
-                    >
-                      Web
+                      Link
                     </a>
                   </div>
                 </div>

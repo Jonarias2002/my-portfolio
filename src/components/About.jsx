@@ -17,7 +17,7 @@ const About = () => {
                 <div className="p-2">
                 <div className="text-gray-300 my-3">
                     <p className="text-justify leading-7 w-11/12 mx-auto">
-                    Front-end developer, lover of programming and sports, self-taught, I characterize myself as a curious person, who loves problem solving and process automation. Looking to join a team to continue to grow and apply my skills to contribute to user-focused projects
+                    I dedicate myself to web development, specialized in the Front-end area using JavaScript with the React framework, I also using HTML, CSS with framework's Tailwind and Bootstrap. Lover of programming and sports, self-taught, I characterize myself as a curious person, who loves problem solving and process automation. I like to be part of innovative and challenging teams, where I can add quality, using the latest technologies.
                     </p>
                     <div className="flex mt-10 items-center gap-7">
                     {info.map((content) => (

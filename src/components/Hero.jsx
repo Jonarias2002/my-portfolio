@@ -16,12 +16,12 @@ const Hero = () => {
                 Hello!
                 <br />
             </span>
-            My Name is <span>Jonathan Arias</span>
+            I'm <span>Jonathan Arias</span>
             </h1>
             <h4 className="md:text-2xl text-lg md:leading-normal leading-5 mt-4 font-bold text-gray-600">
             Front-end Developer <br />
-            20 años / 15 mayo 2002 <br />
-            Venezuela, Estado Bolívar, Ciudad Guayana - 8050
+            20 age / 15 may 2002 <br />
+            Venezuela
             </h4>
         </div>
         </div>
