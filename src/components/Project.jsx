@@ -1,10 +1,8 @@
 import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
-import project1 from "../assets/img/project-1.png";
+import project1 from "../assets/img/project-1.png"
 import project2 from "../assets/img/project-2.png";
-import project3 from "../assets/img/project-3.jpg";
-import project4 from "../assets/img/project-4.jpg";
-import project5 from "../assets/img/project-5.png";
+import project3 from "../assets/img/project-3.png";
 import project_person from "../assets/img/project_person1.png";
 import "swiper/css";
 import "swiper/css/pagination";
@@ -14,7 +12,7 @@ const Project = () => {
   const projects = [
     {
       img: project1,
-      name: "...",
+      name: "Spotify API",
       github_link: "https://github.com/Sridhar-C-25",
       live_link: "https://myreactflix.netlify.app",
     },
@@ -25,23 +23,10 @@ const Project = () => {
       live_link: "https://myjobsearch.netlify.app",
     },
     {
-      img: project1,
-      name: "...",
+      img: project3,
+      name: "Todo list",
       github_link: "https://github.com/Sridhar-C-25/highking",
       live_link: "https://highking01.netlify.app",
-    },
-    {
-      img: project1,
-      name: "...",
-      github_link:
-        "https://github.com/Sridhar-C-25/reacttailwindnavbar-with-dropdown",
-      live_link: "https://reacttailwindnavbar.netlify.app",
-    },
-    {
-      img: project1,
-      name: "...",
-      github_link: "https://github.com/Sridhar-C-25",
-      live_link: "https://vuecountry05.netlify.app",
     },
   ];
   return (
