@@ -3,6 +3,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import project1 from "../assets/img/project-1.png"
 import project2 from "../assets/img/project-2.png";
 import project3 from "../assets/img/project-3.png";
+import project4 from "../assets/img/project-4.png";
 import project_person from "../assets/img/project_person1.png";
 import "swiper/css";
 import "swiper/css/pagination";
@@ -25,6 +26,12 @@ const Project = () => {
     {
       img: project3,
       name: "Todo list",
+      github_link: "https://github.com/Sridhar-C-25/highking",
+      live_link: "https://highking01.netlify.app",
+    },
+    {
+      img: project4,
+      name: "Weather app",
       github_link: "https://github.com/Sridhar-C-25/highking",
       live_link: "https://highking01.netlify.app",
     },
