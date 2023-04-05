@@ -3,7 +3,7 @@ import logoImg from "../assets/img/logo.png";
 const About = () => {
     const info = [
     { text: "Years experience", count: "01" },
-    { text: "Personal Projects", count: "4" },
+    { text: "Personal Projects", count: "2" },
     { text: "Companies Work", count: "01" },
     ];
     return (
