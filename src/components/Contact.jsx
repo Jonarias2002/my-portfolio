@@ -8,7 +8,7 @@ const Contact = () => {
     },
     {   
         logo: "logo-whatsapp",
-        text: "(+58) 414-765-4419"
+        text: "(+58) 414-761-4171"
     },
     {   
         logo: "logo-linkedin",
