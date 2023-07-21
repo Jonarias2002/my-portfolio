@@ -20,7 +20,7 @@ const Hero = () => {
             </h1>
             <h4 className="md:text-2xl text-lg md:leading-normal leading-5 mt-4 font-bold text-gray-600">
             Front-end Developer <br />
-            21 age / may 15 2002 <br />
+            21 age / may/15/2002 <br />
             Venezuela
             </h4>
         </div>
